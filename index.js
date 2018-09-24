@@ -1,4 +1,3 @@
-var dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]
 function dwarfRollCall(dwarves) {
   var array = [];
   for (let i = 0; i < dwarves.length; i++) {
@@ -7,11 +6,10 @@ function dwarfRollCall(dwarves) {
   return array.join("")
 }
 
-var planeteerCalls = ["earth", "wind", "fire", "water", "heart"]
 function summonCaptainPlanet(planeteerCalls) {
   var array = [];
   for (let i = 0; i < planeteerCalls.length; i++) {
-    array.push(`${planeteerCalls[i]}.toUpperCase()!`)
+    array.push(planeteerCalls[i].toUpperCase() + "!")
   }
   return array
 }
